@@ -11,8 +11,25 @@ function Main() {
 
         },
         {
-            src: 
-        }
+            src: "/videos/cowriebracelet.mp4",
+            title: "Cowrie Bracelet",
+            description: "Aesthetic & Beautiful"
+        },
+        {
+            src: "/videos/shellMakeupkit.mp4",
+            title: "Beautiful makeup kit",
+            description: "Aesthetic & Beautiful"
+        },
+        {
+            src: "/videos/shellStand.mp4",
+            title: "Elegant shiny shell stand",
+            description: "Aesthetic & Beatiful"
+        },
+        {
+            src: "/videos/shellCanvas.mp4",
+            title: "good looking canvas",
+            description: "Aesthetic & Beautiful"
+        },
     ]
 
     return (
