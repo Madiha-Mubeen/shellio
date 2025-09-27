@@ -30,6 +30,40 @@ function Main() {
             title: "good looking canvas",
             description: "Aesthetic & Beautiful"
         },
+        {
+            src: "/videos/shellpaintPalette.mp4",
+            title: "Shell Paint Palette",
+            description: "You can use this in your next painting time !"
+        },
+        {
+            src: "/videos/shellCandle.mp4",
+            title: "Shell Based Candles",
+            description: "Decor your Home with these"
+        },
+        {
+            src: "/videos/shellNecklace.mp4",
+            title: "Pretty Shell Necklace",
+            description: "Will suits you well."
+        },
+        {
+            src: "/videos/shellclaycraft.mp4",
+            title: "Shell Clay Craft",
+            description: "Fits with your DIY Collection"
+        }, {
+            src: "/videos/shellAntique.mp4",
+            title: "Easy DIY",
+            description: "This looks good in your Sider"
+        },
+        {
+            src: "/videos/shellBowl.mp4",
+            title: "Sell Bowl",
+            description: "Easy to make & ready to use"
+        },
+        {
+            src: "/videos/shellMermaidmirror.mp4",
+            title: "Mermaid Mirror",
+            description: "It fits so well the your wardrobe table"
+        }
     ]
 
     return (
@@ -39,7 +73,7 @@ function Main() {
             <div className="videos-collection">
             {videosList.map(( video, index) => (
 
-                <Videos key= {index} src= {video.src} title= {video.title} description={video.description}   />
+                <Videos key= {index} src= {video.src} autoPlay loop muted title= {video.title} description={video.description}   />
             
             ))}
             </div>
