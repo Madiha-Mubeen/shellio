@@ -63,6 +63,11 @@ function Main() {
             src: "/videos/shellMermaidmirror.mp4",
             title: "Mermaid Mirror",
             description: "It fits so well the your wardrobe table"
+        },
+        {
+            src: "/videos/shellphoneCharm.mp4",
+            title: "Crystal Shell Phone Charm",
+            description: "Looks good the phone <3"
         }
     ]
 
@@ -71,9 +76,9 @@ function Main() {
             <h2>Scroll'in Down <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="M450-800v526L202-522l-42 42 320 320 320-320-42-42-248 248v-526h-60Z"/></svg></h2>
 
             <div className="videos-collection">
-            {videosList.map(( video, index) => (
+            {videosList.map(( video, index, muted) => (
 
-                <Videos key= {index} src= {video.src} autoPlay loop muted title= {video.title} description={video.description}   />
+                <Videos key= {index} src= {video.src} autoPlay loop muted={muted} title= {video.title} description={video.description}   />
             
             ))}
             </div>
