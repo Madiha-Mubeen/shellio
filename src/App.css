@@ -1,0 +1,15 @@
+body {
+  background: pink;
+  justify-content: center;
+  align-items: center;
+}
+
+.videos-collection {
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  background: red;
+}
+.videos-card {
+  justify-content: center;
+}

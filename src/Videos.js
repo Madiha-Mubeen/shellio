@@ -15,7 +15,7 @@ function Videos ({ src, title, description, muted }) {
 
     return (
         <div>
-            <video controls width="400" 
+            <video controls width="400" className="videos-card"
             muted={muted}
             ref={videoRef}
             onMouseEnter={handleMouseEnter}

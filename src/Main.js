@@ -67,7 +67,7 @@ function Main() {
         {
             src: "/videos/shellphoneCharm.mp4",
             title: "Crystal Shell Phone Charm",
-            description: "Looks good the phone <3"
+            description: "Looks good on the phone <3"
         }
     ]
 
@@ -78,7 +78,7 @@ function Main() {
             <div className="videos-collection">
             {videosList.map(( video, index, muted) => (
 
-                <Videos key= {index} src= {video.src} autoPlay loop muted={muted} title= {video.title} description={video.description}   />
+                <Videos className="videos-card" key= {index} src= {video.src} autoPlay loop muted={muted} title= {video.title} description={video.description}   />
             
             ))}
             </div>
