@@ -13,22 +13,22 @@ function Main() {
         {
             src: "/videos/cowriebracelet.mp4",
             title: "Cowrie Bracelet",
-            description: "Aesthetic & Beautiful"
+            description: "Looks so beautiful"
         },
         {
             src: "/videos/shellMakeupkit.mp4",
             title: "Beautiful makeup kit",
-            description: "Aesthetic & Beautiful"
+            description: "Barbie style Makeupkit"
         },
         {
             src: "/videos/shellStand.mp4",
             title: "Elegant shiny shell stand",
-            description: "Aesthetic & Beatiful"
+            description: "Graceful look"
         },
         {
             src: "/videos/shellCanvas.mp4",
             title: "good looking canvas",
-            description: "Aesthetic & Beautiful"
+            description: "Can be done during free time when feel'in to draw on canvas with some different style."
         },
         {
             src: "/videos/shellpaintPalette.mp4",
