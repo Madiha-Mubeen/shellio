@@ -73,7 +73,7 @@ function Main() {
 
     return (
         <main>
-            <h2>Scroll'in Down <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="M450-800v526L202-522l-42 42 320 320 320-320-42-42-248 248v-526h-60Z"/></svg></h2>
+            <h2 className="scroll-text">Scroll'in Down <br></br><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="M450-800v526L202-522l-42 42 320 320 320-320-42-42-248 248v-526h-60Z"/></svg></h2>
 
             <div className="videos-collection">
             {videosList.map(( video, index, muted) => (

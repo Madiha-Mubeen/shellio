@@ -14,7 +14,7 @@ function Videos ({ src, title, description, muted }) {
     };
 
     return (
-        <div>
+        <div className="videos-section">
             <video controls width="400" className="videos-card"
             muted={muted}
             ref={videoRef}

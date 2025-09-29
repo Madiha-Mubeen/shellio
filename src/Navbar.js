@@ -1,12 +1,13 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Navbar() {
     return (
         <nav>
             <h1>Explore The - Shellio</h1>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
+                <li><Link to="/" className="home-bg"><img src="/shelliohome.png" alt="home"></img></Link></li>
+                <li><Link to="/about" className="about-bg"><img src="/shellioabout.png" alt="about"></img></Link></li>
             </ul>
         </nav>
     )
