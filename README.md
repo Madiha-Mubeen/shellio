@@ -14,4 +14,9 @@ This website is based on the shell made DIY or Arts & Crafts which are Eye attra
 ## Difficulties faced: 
 It was moderate difficulties I faced while making elements & tags to have correct location & to choose the theme of shell correctly. 
 
-## Live Link
+## Live Link:
+[Explore the Shellio](https://madiha-mubeen.github.io/shellio/)
+
+<br><br><br>
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+
