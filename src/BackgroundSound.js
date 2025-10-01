@@ -3,7 +3,7 @@ import React from "react";
 function BackgroundSound() {
     return (
     <div className="audio">
-        <audio src="/calm-nature-sounds.mp3" loop controls autoPlay  />
+        <audio src={process.env.PUBLIC_URL + "/calm-nature-sounds.mp3"} loop controls autoPlay  />
     </div>
     )
 }
