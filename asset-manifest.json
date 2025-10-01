@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shellio/static/css/main.c8005d3f.css",
+    "main.js": "/shellio/static/js/main.a9343e58.js",
+    "static/js/453.1978441b.chunk.js": "/shellio/static/js/453.1978441b.chunk.js",
+    "static/media/shelliobg.jpg": "/shellio/static/media/shelliobg.808f55416f10e1d8bc7e.jpg",
+    "index.html": "/shellio/index.html",
+    "main.c8005d3f.css.map": "/shellio/static/css/main.c8005d3f.css.map",
+    "main.a9343e58.js.map": "/shellio/static/js/main.a9343e58.js.map",
+    "453.1978441b.chunk.js.map": "/shellio/static/js/453.1978441b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8005d3f.css",
+    "static/js/main.a9343e58.js"
+  ]
+}

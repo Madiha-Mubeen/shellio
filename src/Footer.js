@@ -1,9 +1,0 @@
-import React from "react";
-
-function Footer() {
-    return ( 
-    <footer>&copy; 2025 built by Madiha Mubeen <a href="mailto:madihamubeenhawaldar@gmail.com">Email</a></footer>
-    );
-}
-
-export default Footer;
