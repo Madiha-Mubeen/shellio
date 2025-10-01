@@ -6,8 +6,8 @@ function Navbar() {
         <nav>
             <h1>Explore The - Shellio</h1>
             <ul>
-                <li><Link to="/" className="home-bg"><img src="/shelliohome.png" alt="home"></img></Link></li>
-                <li><Link to="/about" className="about-bg"><img src="/shellioabout.png" alt="about"></img></Link></li>
+                <li><Link to="/" className="home-bg"><img src={process.env.PUBLIC_URL + "/shelliohome.png"} alt="home"></img></Link></li>
+                <li><Link to="/about" className="about-bg"><img src={process.env.PUBLIC_URL + "/shellioabout.png"} alt="about"></img></Link></li>
             </ul>
         </nav>
     )
