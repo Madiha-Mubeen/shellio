@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/shellio/static/css/main.c8005d3f.css",
-    "main.js": "/shellio/static/js/main.7af1eefb.js",
+    "main.js": "/shellio/static/js/main.0d4ff0ce.js",
     "static/js/453.1978441b.chunk.js": "/shellio/static/js/453.1978441b.chunk.js",
     "static/media/shelliobg.jpg": "/shellio/static/media/shelliobg.808f55416f10e1d8bc7e.jpg",
     "index.html": "/shellio/index.html",
     "main.c8005d3f.css.map": "/shellio/static/css/main.c8005d3f.css.map",
-    "main.7af1eefb.js.map": "/shellio/static/js/main.7af1eefb.js.map",
+    "main.0d4ff0ce.js.map": "/shellio/static/js/main.0d4ff0ce.js.map",
     "453.1978441b.chunk.js.map": "/shellio/static/js/453.1978441b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8005d3f.css",
-    "static/js/main.7af1eefb.js"
+    "static/js/main.0d4ff0ce.js"
   ]
 }
